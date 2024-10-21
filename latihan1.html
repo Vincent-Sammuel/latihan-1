@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Diri</title>
+</head>
+<body>
+    <h1><p>Formulir
+        <img src="logo.png" width="50" height="50"/>
+    </p>
+    </h1>
+    <form action="latihan1.html" method="get">
+        <fieldset>
+            <legend><b>Silahkan Isi Data Diri</b></legend>
+            <p>
+                <label>Nama Depan:</label>
+                <input type="text" name="name" placeholder="Nama Depan..." />
+            </p>
+            <p>
+                <label>Nama Belakang:</label>
+                <input type="text" name="name" placeholder="Nama Belakang..." />
+            </p>
+                <label>Umur:</label>
+                <input type="text" name="umur" placeholder="Umur..." />
+            </p>
+            
+            
+            <!--Select Option -->
+            <p><b>Menggunakan Dropdown</b></p>
+            <p>
+                <label>Jenis Kelamin:</label>
+                <select name="jk">
+                    <option value="lakilaki">Laki-Laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+            </p>
+
+            <!--Radio Button -->
+            <p><b>Menggunakan Radio Button</b></p>
+            <p>Golongan Darah:</p>
+               <p><input type="radio" name="golongan_darah" value="A" />A</p>
+               <p><input type="radio" name="golongan_darah" value="B" />B</p>
+               <p><input type="radio" name="golongan_darah" value="AB" />AB</p>
+               <p><input type="radio" name="golongan_darah" value="O" />O</p>
+               </p>
+                
+            </p>
+
+            <!-- Checkbox -->
+             <p><b>Menggunakan Checkbox</b></p>
+             <p>Hobi:</p>
+             <p><input type="checkbox" name="hobi" value="Memasak" />Memasak</p>
+             <p><input type="checkbox" name="hobi" value="Menggambar" />Menggambar</p>
+             <p><input type="checkbox" name="hobi" value="Olahraga" />Olahraga</p>
+             <p><input type="checkbox" name="hobi" value="Membaca" />Membaca</p>
+
+             <input type="submit" value="SUBMIT"> <input type="reset" value="BATAL">
+        </fieldset>
+        
+    </form>
+    <p><b>Contoh Tabel Data Diri</b></p>
+    <table border="1">
+        <caption><b>Data Pribadi</b></caption>
+        <!-- Baris Ke 1 -->
+        <tr>
+            <th>No.</th>
+            <th>Nama Depan</th>
+            <th>Nama Belakang</th>
+            <th>Umur </th>
+            <th>Jenis Kelamin </th>
+            <th>Golongan Darah </th>
+            <th>Hobi </th>
+        </tr>
+
+        <!-- Baris Ke 2 -->
+        <tr>
+            <td>1</td>
+            <td>Vincent</td>
+            <td>Sammuel</td>
+            <td>20 </td>
+            <td>Laki-Laki </td>
+            <td>B </td>
+            <td>Memasak </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Xiao</td>
+            <td>Mei-Mei</td>
+            <td>18 </td>
+            <td>Perempuan </td>
+            <td>O </td>
+            <td>Membaca </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+
+    </table>
+    <br>
+</body>
+
+<head>
+</html>
